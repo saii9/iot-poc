@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\common\ConfigCommon.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\network\MbedTLS\MbedTLSConnection.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\network\OpenSSL\OpenSSLConnection.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\network\WebSocket\WebSocketConnection.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\network\WebSocket\wslay\wslay_frame.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\network\WebSocket\wslay\wslay_net.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\Action.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\ClientCore.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\ClientCoreState.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\discovery\Discovery.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\discovery\DiscoveryResponse.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\mqtt\Client.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\mqtt\ClientState.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\mqtt\Common.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\mqtt\Connect.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\mqtt\GreengrassMqttClient.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\mqtt\NetworkRead.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\mqtt\Packet.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\mqtt\Publish.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\mqtt\Subscribe.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\NetworkConnection.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\ResponseCode.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\shadow\Shadow.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\util\JsonParser.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\util\logging\ConsoleLogSystem.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\util\logging\FormattedLogSystem.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\util\logging\Logging.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\util\logging\LogLevel.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\util\threading\ThreadTask.cpp" />
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\util\Utf8String.cpp" />
+    <ClCompile Include="..\..\mbedtls-development\library\aes.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\aesni.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\arc4.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\asn1parse.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\asn1write.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\base64.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\bignum.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\blowfish.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\camellia.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\ccm.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\certs.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\cipher.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\cipher_wrap.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\cmac.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\ctr_drbg.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\debug.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\des.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\dhm.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\ecdh.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\ecdsa.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\ecjpake.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\ecp.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\ecp_curves.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\entropy.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\entropy_poll.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\error.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\gcm.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\havege.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\hmac_drbg.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\md.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\md2.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\md4.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\md5.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\md_wrap.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\memory_buffer_alloc.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\net_sockets.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\oid.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\padlock.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\pem.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\pk.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\pkcs11.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\pkcs12.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\pkcs5.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\pkparse.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\pkwrite.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\pk_wrap.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\platform.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\ripemd160.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\rsa.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\sha1.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\sha256.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\sha512.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\ssl_cache.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\ssl_ciphersuites.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\ssl_cli.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\ssl_cookie.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\ssl_srv.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\ssl_ticket.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\ssl_tls.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\threading.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\timing.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\version.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\version_features.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\x509.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\x509write_crt.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\x509write_csr.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\x509_create.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\x509_crl.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\x509_crt.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\x509_csr.c" />
+    <ClCompile Include="..\..\mbedtls-development\library\xtea.c" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\aws-iot-device-sdk-cpp\network\WebSocket\WebSocketConnection.hpp" />
+    <ClInclude Include="..\..\aws-iot-device-sdk-cpp\network\WebSocket\wslay\wslay.hpp" />
+    <ClInclude Include="..\..\aws-iot-device-sdk-cpp\network\WebSocket\wslay\wslay_frame.hpp" />
+    <ClInclude Include="..\..\aws-iot-device-sdk-cpp\network\WebSocket\wslay\wslay_net.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="certs\8c0f34c3a2-certificate.pem.crt" />
+    <None Include="certs\8c0f34c3a2-private.pem.key" />
+    <None Include="certs\8c0f34c3a2-public.pem.key" />
+    <None Include="certs\ca.pem" />
+    <None Include="SampleConfig.json" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EA26FFB2-7565-4948-AF0F-A35D75C3588A}</ProjectGuid>
+    <RootNamespace>ciot</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\Primasolv\internalscripts\POC\iot\aws-iot-device-sdk-cpp\samples\PubSub;D:\Primasolv\internalscripts\POC\iot\aws-iot-device-sdk-cpp\common;D:\Primasolv\internalscripts\POC\iot\aws-iot-device-sdk-cpp\network\MbedTLS;D:\Primasolv\internalscripts\POC\iot\aws-iot-device-sdk-cpp\network\OpenSSL;D:\Primasolv\internalscripts\POC\iot\aws-iot-device-sdk-cpp\include;D:\Primasolv\internalscripts\POC\iot\openssl-1.1.0f-vs2017\include;D:\Primasolv\internalscripts\POC\iot\mbedtls-development\include;D:\Primasolv\internalscripts\POC\iot\rapidjson\include;$(IncludePath)</IncludePath>
+    <ReferencePath>D:\Primasolv\internalscripts\POC\iot\openssl-1.1.0f-vs2017\bin;$(ReferencePath)</ReferencePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;WIN32;/DSDK_VERSION_STRING="1.2.0";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>D:\Primasolv\internalscripts\POC\iot\openssl-1.1.0f-vs2017\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcryptoMD.lib;libcryptoMT.lib;libsslMDd.lib;libsslMTd.lib;libcryptoMDd.lib;libcryptoMTd.lib;libsslMD.lib;libsslMT.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

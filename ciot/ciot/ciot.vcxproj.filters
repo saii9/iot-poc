@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\mbedTLS">
+      <UniqueIdentifier>{0f2c0dd8-5b86-4c60-845b-33bf412ecce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\iot-sdk">
+      <UniqueIdentifier>{6f1b29a4-31de-451f-9eb7-d6aaa7f76b10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\certs">
+      <UniqueIdentifier>{710e6bfe-afdf-434e-b77d-e992f9dcd6f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\mbedtls-development\library\aes.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\aesni.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\arc4.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\asn1parse.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\asn1write.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\base64.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\bignum.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\blowfish.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\camellia.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\ccm.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\certs.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\cipher.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\cipher_wrap.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\cmac.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\ctr_drbg.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\debug.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\des.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\dhm.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\ecdh.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\ecdsa.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\ecjpake.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\ecp.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\ecp_curves.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\entropy.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\entropy_poll.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\error.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\gcm.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\havege.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\hmac_drbg.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\md.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\md2.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\md4.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\md5.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\md_wrap.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\memory_buffer_alloc.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\net_sockets.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\oid.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\padlock.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\pem.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\pk.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\pkcs11.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\pkcs12.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\pkcs5.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\pkparse.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\pkwrite.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\pk_wrap.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\platform.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\ripemd160.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\rsa.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\sha1.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\sha256.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\sha512.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\ssl_cache.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\ssl_ciphersuites.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\ssl_cli.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\ssl_cookie.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\ssl_srv.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\ssl_ticket.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\ssl_tls.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\threading.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\timing.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\version.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\version_features.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\x509.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\x509write_crt.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\x509write_csr.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\x509_create.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\x509_crl.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\x509_crt.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\x509_csr.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mbedtls-development\library\xtea.c">
+      <Filter>Source Files\mbedTLS</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\Action.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\ClientCore.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\ClientCoreState.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\discovery\Discovery.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\discovery\DiscoveryResponse.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\mqtt\Client.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\mqtt\ClientState.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\mqtt\Common.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\mqtt\Connect.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\mqtt\GreengrassMqttClient.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\mqtt\NetworkRead.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\mqtt\Packet.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\mqtt\Publish.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\mqtt\Subscribe.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\NetworkConnection.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\ResponseCode.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\shadow\Shadow.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\util\JsonParser.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\util\logging\ConsoleLogSystem.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\util\logging\FormattedLogSystem.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\util\logging\Logging.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\util\logging\LogLevel.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\util\threading\ThreadTask.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\src\util\Utf8String.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\network\MbedTLS\MbedTLSConnection.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\network\OpenSSL\OpenSSLConnection.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\network\WebSocket\WebSocketConnection.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\network\WebSocket\wslay\wslay_frame.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\network\WebSocket\wslay\wslay_net.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\aws-iot-device-sdk-cpp\common\ConfigCommon.cpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\aws-iot-device-sdk-cpp\network\WebSocket\WebSocketConnection.hpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\aws-iot-device-sdk-cpp\network\WebSocket\wslay\wslay.hpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\aws-iot-device-sdk-cpp\network\WebSocket\wslay\wslay_frame.hpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\aws-iot-device-sdk-cpp\network\WebSocket\wslay\wslay_net.hpp">
+      <Filter>Source Files\iot-sdk</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SampleConfig.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="certs\8c0f34c3a2-public.pem.key">
+      <Filter>Resource Files\certs</Filter>
+    </None>
+    <None Include="certs\ca.pem">
+      <Filter>Resource Files\certs</Filter>
+    </None>
+    <None Include="certs\8c0f34c3a2-certificate.pem.crt">
+      <Filter>Resource Files\certs</Filter>
+    </None>
+    <None Include="certs\8c0f34c3a2-private.pem.key">
+      <Filter>Resource Files\certs</Filter>
+    </None>
+  </ItemGroup>
+</Project>

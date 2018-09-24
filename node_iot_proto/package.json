@@ -1,0 +1,21 @@
+{
+  "name": "node_iot_proto",
+  "version": "1.0.0",
+  "description": "sample iot clinet",
+  "main": "main.js",
+  "scripts": {
+    "test": "na"
+  },
+  "repository": {
+    "type": "git",
+    "url": "na"
+  },
+  "keywords": [
+    "na"
+  ],
+  "author": "Sundeep Innamuri",
+  "license": "ISC",
+  "dependencies": {
+    "aws-iot-device-sdk": "^2.2.0"
+  }
+}
